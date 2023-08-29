@@ -1,19 +1,20 @@
-menu = """
+def menu():
+    menu = """
 
-[d] Depositar
-[s] Sacar
-[e] Extrato
-[q] Sair
-[m] Menu
+    [d] Depositar
+    [s] Sacar
+    [e] Extrato
+    [q] Sair
+    [m] Menu
 
-=> """
+    => """
 
 info_menu = """
 
-Você possui até 3 saques diários, para consultar quantos ainda restam por favor verifique o seu extrato.
-Você pode sacar até R$ 500 por saque.
+    Você possui até 3 saques diários, para consultar quantos ainda restam por favor verifique o seu extrato.
+    Você pode sacar até R$ 500 por saque.
 
-"""
+    """
 
 saldo = 0
 limite = 500
